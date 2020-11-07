@@ -1,0 +1,17 @@
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $title-color;
+  .about & {
+    margin-bottom: 50px;
+  }
+  .clients & {
+    margin-bottom: 50px;
+  }
+  .co-workers & {
+    margin-bottom: 50px;
+  }
+}

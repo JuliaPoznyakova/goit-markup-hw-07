@@ -1,0 +1,39 @@
+/*footer*/
+.footer {
+  background: #2f303a;
+}
+
+.address-footer {
+  width: 231px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-right: 69px;
+}
+.address-fact {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  color: #ffffff;
+}
+.address-list-item {
+  margin-top: 9px;
+  &-mail-foter,&-tel-footer {
+    color: #ffffff;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    :hover {
+      color: $accent-color;
+    }
+  }
+}
+
+.address-footer-description {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  color: #ffffff;
+}
+@import "./subscription-social";
+@import "./subscription";
